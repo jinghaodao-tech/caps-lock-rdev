@@ -1,0 +1,8 @@
+[package]
+name = "hyperkey_launcher"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rdev = { version = "0.5.3", features = ["unstable_grab"] }
+windows = { version = "0.58", features = ["Win32_Foundation", "Win32_UI_WindowsAndMessaging", "Win32_System_Threading"] }
